@@ -1,6 +1,6 @@
 {
   "name": "dration",
-  "version": "0.0.0-semantic",
+  "version": "0.0.0-development",
   "description": "",
   "main": "lib/index.js",
   "module": "lib/dration.module.js",

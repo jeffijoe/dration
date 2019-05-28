@@ -4,7 +4,6 @@ yarn-error.log
 coverage
 .nyc_output
 lib
-.test-out
 .DS_Store
 .idea/workspace.xml
 .sublime-workspace

@@ -24,8 +24,17 @@ script: npm run cover
 # Code coverage
 after_success:
   - npm run coveralls
-  - npm run semantic-release
 
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
+
+jobs:
+  include:
+    # Define the release stage that runs semantic-release
+    - stage: release
+      node_js: lts/*
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script: "npx semantic-release"
