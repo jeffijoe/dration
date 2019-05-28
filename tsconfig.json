@@ -1,0 +1,17 @@
+{
+  "exclude": ["node_modules", "lib"],
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./lib",
+    "strict": true,
+    "esModuleInterop": true,
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es6", "es7"]
+  }
+}
